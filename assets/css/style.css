@@ -249,6 +249,19 @@ body {
         margin-right: 50px !important;
     }
 }
+
+@media screen and (max-width:1230px) {
+    .ml_mr {
+        grid-template-columns: repeat(1,1fr);
+    }
+}
+
+@media screen and (max-width:900px) {
+    .ml_mr {
+        margin-left: 20px !important;
+        margin-right: 20px !important;
+    }
+}
 @media screen and (max-width:750px) {
     .kontent {
         grid-template-columns: repeat(1,1fr);
