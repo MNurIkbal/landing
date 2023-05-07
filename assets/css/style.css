@@ -167,8 +167,11 @@ body {
 
 .cards {
     border-radius: 15px;
-    /* margin-left: 100px;
-    margin-right: 100px; */
+}
+
+.ml_mr {
+    margin-left: 70px  !important;
+    margin-right: 70px !important;
 }
 
 .font_20 {
@@ -209,6 +212,11 @@ body {
         margin-left: 50px;
         margin-right: 50px;
     }
+
+    .maring {
+        margin-left: 50px !important;
+        margin-right: 50px !important;
+    }
 }
 @media screen and (max-width:750px) {
     .kontent {
@@ -220,3 +228,9 @@ body {
     }
 }
 
+@media screen and (max-width:780px) {
+    .maring {
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+    }
+}
