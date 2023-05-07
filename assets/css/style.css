@@ -165,6 +165,18 @@ body {
     padding-bottom: 60px;
 }
 
+.black li {
+    font-weight: bold !important;
+}
+
+.cols_img {
+    width: 400px;
+    height: 100%;
+    margin: 0 auto !important;
+    display: flex;
+    align-items: center;
+}
+
 .cards {
     border-radius: 15px;
 }
@@ -172,6 +184,9 @@ body {
 .ml_mr {
     margin-left: 70px  !important;
     margin-right: 70px !important;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 50px;
 }
 
 .font_20 {
@@ -193,6 +208,22 @@ body {
     color: black;
     margin-bottom: 10px;
 }
+
+.slider_center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.button_left {
+    transform: translateX(-60px);
+}
+
+.button_right {
+    transform: translateX(60px);
+}
+
 /* responsive */
 @media screen and (max-width:1250px) {
     .kontent {
